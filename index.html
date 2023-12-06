@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/d575fe1d69.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3>Signup</h3>
+      <div class="inputs">
+        <div class="mail">
+          <input type="email" placeholder="Enter your email" />
+          <div class="tools valid_email">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p class="text_email">Please enter a valid email</p>
+          </div>
+        </div>
+        <div class="password">
+          <div class="pass">
+            <input type="password" placeholder="Create password" disabled />
+            <i class="fa-regular fa-eye-slash eye_pass"></i>
+          </div>
+          <div class="tools valid_password">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p class="text_pass">
+              Please enter atleast 8 characters with number, symbol, capital and
+              small letter.
+            </p>
+          </div>
+        </div>
+        <div class="confirm_pass">
+          <div class="confirm">
+            <input type="password" placeholder="Confirm password" disabled />
+            <i class="fa-regular fa-eye-slash eye_confirm"></i>
+          </div>
+          <div class="tools confirm_pass">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p class="text_password">Password don't match.</p>
+          </div>
+        </div>
+      </div>
+      <button class="signup">Signup Now</button>
+    </div>
+  </body>
+</html>
